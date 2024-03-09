@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Technological Innovation",
+        "text": "Praesent dapibus, tortor neque egestas auguae, eu vulputate magna eu erat.",
+        "icon": "fa-solid fa-bullhorn"
+    },
+    {
+        "title": "Creativity Designs",
+        "text": "Praesent dapibus, tortor neque egestas auguae, eu vulputate magna eu erat.",
+        "icon": "fa-regular fa-lightbulb"
+    },
+    {
+        "title": "Custom Support",
+        "text": "Praesent dapibus, tortor neque egestas auguae, eu vulputate magna eu erat.",
+        "icon": "fa-regular fa-message"
+    },
+    {
+        "title": "Project Management",
+        "text": "Praesent dapibus, tortor neque egestas auguae, eu vulputate magna eu erat.",
+        "icon": "fa-regular fa-file"
+    }
+]

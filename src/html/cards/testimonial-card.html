@@ -1,0 +1,26 @@
+ <div class="testimonial__card swiper-slide">
+    <div class="testimonial__card-content">
+        <div class="testimonial__card-review">@@text</div>
+      <span class="icon-quote">“</span>
+    </div>
+    <div class="testimonial__card-person">
+      <div class="testimonial__card-img">
+        <img src="./images/testimoials/@@img" alt="@@name" />
+      </div>
+      <div class="testimonial__card-name">
+        <h4>@@name</h4>
+        <span>@@position</span>
+      </div>
+      <div class="testimonial__card-rating">
+        @@for (let i = 0; i < context.rating; i++) {
+        <img src="./images/svg/star-small.svg" alt="rating" />
+        } 
+        @@if(context.rating < 5) 
+        { @@for (let i = 0; i < 5 - context.rating; i++) 
+            {
+        <img src="./images/svg/star-off.svg" alt="rating" />
+        } }
+      </div>
+    </div>
+  </div>
+

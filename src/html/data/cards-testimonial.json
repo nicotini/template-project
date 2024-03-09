@@ -1,0 +1,37 @@
+[
+    {
+        "text": "Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia",
+        "name": "Michael Smith",
+        "position": "Backend Developer",
+        "img": "01.jpg",
+        "rating": 5
+    },
+    {
+        "text": "For starters, I think the most successful politicians have integrity. For starters, I think the most successful politicians have integrity.",
+        "name": "Gloria N",
+        "position": "Software Developer",
+        "img": "02.jpg",
+        "rating": 2
+    },
+    {
+        "text": "For the same reason, they tend to be skillful at working with all sorts of people. For starters, I think the most successful politicians have integrity.",
+        "name": "Sasha Tuori",
+        "position": "Frontend Developer",
+        "img": "03.jpg",
+        "rating": 4
+    },
+    {
+        "text": "11Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia For starters, I think the most successful politicians have integrity.",
+        "name": "Michael Smith",
+        "position": "Backend Developer",
+        "img": "04.jpg",
+        "rating": 5
+    },
+    {
+        "text": "Lorem ipsum. For starters, I think the most successful politicians have integrity.For starters, I think the most successful politicians have integrity.",
+        "name": "Gregory Mitchel",
+        "position": "Backend Developer",
+        "img": "02.jpg",
+        "rating": 4
+    }
+]

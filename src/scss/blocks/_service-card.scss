@@ -1,0 +1,49 @@
+.card__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+
+    &:hover {
+        transform: translateY(-10px);
+    }
+}
+
+.card__info-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 22px;
+    width: 80px;
+    height: 80px;
+    flex: 0 0 80px;
+    font-size: 32px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 0 transparent;
+    background-color: rgba(5, 213, 97, 0.15);
+    color: var(--heading-color);
+    transition: all 0.25s;
+
+    &:hover {
+        box-shadow: inset 0 0 0 40px var(--accent);
+        color: var(--page-bg);
+    }
+}
+
+.card__info-content {
+    h4 {
+        margin-bottom: 10px;
+
+    }
+
+    text-align: center;
+}
+
+.card__link {
+    color: var(--heading-color);
+
+    &:hover {
+        color: var(--accent);
+    }
+}

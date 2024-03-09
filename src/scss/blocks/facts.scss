@@ -1,0 +1,61 @@
+.facts {
+    position: relative;
+    background-color: #fff;
+    height: 100%;
+    background: url(../../images/executives-background.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.facts-parallax {
+    padding: 120px 0;
+}
+.facts__banner {
+}
+
+.row__facts {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    @include mediaMobile() {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @include mediaMobileS() {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+.item__facts {
+    color: var(--page-bg);
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item__facts-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 20px;
+    width: 50px;
+    height: 50px;
+    flex: 0 0 50px;
+    font-size: 48px;
+    color: var(--accent);
+    transition: all 0.25s;
+}
+.fa-regular {
+}
+.fa-file {
+}
+.item__facts-counter {
+    font-family: "Titillium Web", "Almarai", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 0.95;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.item__facts-title {
+    opacity: 0.5;
+}

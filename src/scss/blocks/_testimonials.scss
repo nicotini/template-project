@@ -1,0 +1,28 @@
+.testimonials {
+    background-color: #f7f7f7;
+    padding: 120px 0;
+   
+}
+.testimonials__info {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    text-align: center;
+    @include mediaTablet() {
+        width: 100%;
+    }
+}
+.testimonials__title {
+    .subtitle {
+        display: block;
+    }
+}
+.testimonials__text {
+    padding-top: 5px;
+    font-size: 18px;
+}
+.testimonials__row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}

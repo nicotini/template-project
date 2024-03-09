@@ -1,0 +1,153 @@
+.pricing {
+    padding: 120px 0;
+    @include mediaTablet() {
+        padding: 50px 0;
+    }
+}
+
+.pricing__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 50px;
+    @include mediaMobile() {
+        width: 100%;
+    }
+
+
+}
+
+.pricing__title {
+    margin-bottom: 20px;
+}
+
+.pricing__text {
+    font-size: 18px;
+}
+
+.pricing__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    width: 100%;
+    @include mediaTablet() {
+        justify-content: space-around;
+    }
+}
+
+.pricing_card {
+    flex: 0 0 30%;
+    box-shadow: inset 0 0 0 4px #888, 0 20px 28px 5px rgba(0, 0, 0, 0.1);
+    padding: 50px 40px;
+    border-radius: 10px;
+    transition: all 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 360px;
+    @include mediaTablet() {
+        flex: 0 0 50%;
+        margin-bottom: 20px;
+    }
+    @include mediaMobile() {
+        flex: 0 0 100%;
+        max-width: 80%;
+    }
+    @include mediaMobileXS() {
+        max-width: 100%;
+        padding: 30px 30px;
+    }
+
+    &:hover {
+        transform: translateY(-15px);
+        box-shadow: inset 0 0 0 4px #05d561, 0 20px 28px 5px rgba(0, 0, 0, 0.1);
+    }
+}
+
+.pricing_card-icon {
+    i {
+        margin-bottom: 15px;
+        font-size: 36px;
+        color: #222;
+    }
+}
+
+.pricing_card-title {
+    font-size: 14px;
+    font-family: "Titillium Web", "Almarai", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #aaa;
+}
+
+.pricing_card-price {
+    h2 {
+        color: var(--accent);
+        font-size: 48px;
+        transition: all 0.2s;
+    }
+
+}
+
+.pricing_card-period {
+    margin-top: -3px;
+    font-size: 12px;
+    margin-bottom: 25px;
+}
+
+.pricing_card-btn {
+    transform: translateY(0);
+    background-color: var(--accent);
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    border-color: var(--accent);
+    padding: 15px 40px;
+    font-size: 18px;
+    border-width: 3px;
+    border-radius: 999px;
+    border: 2px solid;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    @include mediaMobileXS() {
+        padding: 15px;
+    }
+    &:hover {
+        background: #222;
+        color: #fff;
+        text-shadow: none;
+        border-color: #222;
+    }
+}
+
+.pricing_card-benefits {
+
+    font-size: 18px;
+    line-height: 2;
+    @include mediaMobileXS() {
+        font-size: 16px;
+    }
+}
+
+.pricing_card-benefit {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    i {
+        margin-left: auto;
+        padding-left: 30px;
+        color: #222;
+    }
+}

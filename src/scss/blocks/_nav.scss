@@ -1,0 +1,40 @@
+.header__nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    @include mediaMobile {
+        display: none;
+    }
+}
+
+.menu__item {
+    font-size: 16px;
+    line-height: 1.75;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.menu__link {
+    color: #fff;
+    transition: 0.5s ease-in;
+    &:hover,
+    &:active {
+        color: var(--accent)
+    }
+}
+.nav__icon {
+    display: none;
+    @include mediaMobile {
+        display: block;
+    }
+}

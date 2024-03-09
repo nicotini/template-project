@@ -1,0 +1,23 @@
+[
+    {
+        "icon": "fa-regular fa-user",
+        "title": "STARTER",
+        "price": "245",
+        "icon-text": "<i class=\"fa-solid fa-square-minus\"></i>"
+        
+    },
+    {
+        "icon": "fa-regular fa-flag",
+        "title": "PROFESSIONAL",
+        "price": "499",
+        "icon-text": "<i class=\"fa-solid fa-square-check\"></i>"
+        
+    },
+    {
+        "icon": "fa-solid fa-rocket",
+        "title": "ENTERPRISE",
+        "price": "1230",
+        "icon-text": "<i class=\"fa-solid fa-square-check\"></i>"
+        
+    }
+]
